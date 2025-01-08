@@ -16,26 +16,31 @@ class landlord_tenant_module extends Seeder
         $modules = [
             [
                 'name' => 'dashboard',
+                'route_name' => '/dashboard',
                 'display_name' => 'Dashboard',
                 'description' => 'Provides a summary view of system data and stats',
             ],
             [
                 'name' => 'profile',
+                'route_name' => '/profile',
                 'display_name' => 'Profile',
                 'description' => 'Handles user profile management',
             ],
             [
                 'name' => 'blog',
+                'route_name' => '/blog',
                 'display_name' => 'Blog',
                 'description' => 'Manages blog posts and articles',
             ],
             [
                 'name' => 'setting',
+                'route_name' => '/setting',
                 'display_name' => 'Settings',
                 'description' => 'Handles system settings and configurations',
             ],
             [
                 'name' => 'report',
+                'route_name' => '/report',
                 'display_name' => 'Reports',
                 'description' => 'Allows users to generate and view system reports',
             ],

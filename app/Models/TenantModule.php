@@ -13,7 +13,7 @@ class TenantModule extends Model
     protected $fillable = [
                 'name', 'display_name', 'description', 'route_name', 'icon', 
                 'is_active', 'delete_flag'
-            ];;
+            ];
 
     public function permissions() {
         return $this->belongsToMany(Permission::class, 'tenant_module_permission', 'tenant_module_id', 'permission_id');
